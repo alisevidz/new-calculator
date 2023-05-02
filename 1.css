@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0
+}
+
+html{
+    background-color: #ffffe0
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: cemter;
+    gap: 70px;
+}
+
+.inputField{
+    width: 400px;
+    height: 100px;
+    font-size: 40px;
+    border: 3px solid purple;
+    border-radius: 8px;
+    outline: none;
+}
